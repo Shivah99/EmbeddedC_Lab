@@ -1,9 +1,12 @@
-    %c	    Character
-    %d,%i	Integer 
-    %f	    Float
-    %s	    String 
-    %u      unsigned integer
-    %ul     Unsigned integer
-    %lf     double
-    %lf     long double
-    %ld     long integer
+%c	    Character
+%d,%i	Integer 
+%f	    Float
+%s	    String 
+%u      unsigned integer
+%ul     Unsigned integer
+%lf     double
+%lf     long double
+%ld     long integer
+%o      Octal
+%p      Pointer
+%x      HexaDecimal
