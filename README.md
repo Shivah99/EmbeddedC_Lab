@@ -24,7 +24,7 @@
         Hint : m = n / 12.0;
         -calculate simple interest using the below formula and store in si variable.
         si = p * m * r / 100;
-        - print si value to the user using printf."
+        - print si value to the user using printf.
     
     4)calculation of average of 4 numbers
     5)calculation of area and perimeter of rectangle,square and circle
