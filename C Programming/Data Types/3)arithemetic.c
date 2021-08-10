@@ -7,7 +7,7 @@ void main()
     add=a+b;
     sub=a-b;
     mul=a*b;
-    divi=a/b
+    divi=a/b;
     printf("add=%d,sub=%d,div=%d,mul=%d",add,sub,divi,mul);
     
 }
