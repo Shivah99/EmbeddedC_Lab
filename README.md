@@ -8,12 +8,12 @@
 
 
 1)  read a 4 digit number and print it in the following formats using arithmetic operators:
-    -eg., 4532
+    "eg., 4532
     OP:
     2           4                         4                                      4532                  2354                
     3           5                         45                                    453
     5           3                         453                                  45
-    4           2                         4532                                4
+    4           2                         4532                                4"
 
 2)  read a 4 digit number and print it in the following format using escape sequences:
     -eg., 4532
