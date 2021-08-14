@@ -2,7 +2,7 @@
 
 ## C programming 
 
-### Variables
+### Conditional Operaators
 
 ##### Date 13-08-2021
 
