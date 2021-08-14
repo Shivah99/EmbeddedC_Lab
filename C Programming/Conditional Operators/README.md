@@ -4,7 +4,7 @@
 
 ### Conditional Operaators
 
-##### Date 13-08-2021
+##### Date 12-08-2021
 
     1)Write a program to find the biggest of two numbers using conditional operator.
     2)Write a program to find the biggest of three numbers using conditional operator.
