@@ -1,9 +1,15 @@
 #include<stdio.h>
 int main()
 {
-int p;
-scanf("%d",&p);
-if(p>=80)
+float p,t;
+printf("enter the total marks out of 600: ");
+scanf("%f",&t); //p=percentage
+ p=(t/600)*100;  
+if(p>100)
+{
+    printf("Entered marks over the total marks, please recalculate and enter");
+}
+else if(p>=80)
 {
     printf("HONOURS");
 }
@@ -26,5 +32,6 @@ else if(p>=60)
 else
 {
     printf("Enter the correct percentage");
-}return 0;
+}
+return 0;
 }
