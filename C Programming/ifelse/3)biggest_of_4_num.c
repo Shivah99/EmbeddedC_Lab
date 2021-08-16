@@ -1,23 +1,55 @@
 #include<stdio.h>
-void main()
+main()
 {
 int a,b,c,d;
-printf("Enter a,b,c,d: "); 
-scanf("%d%d%d%d",&a,&b,&c,&d);
-if(a > b && a > c && a > d)
+printf("Enter the value of a,b,c,d: ");
+scanf("%d %d %d %d",&a,&b,&c,&d);
+if(a>b)
+    {
+    if(a>c)
+        {
+        if(a>d)
+        {
+        printf("a is greater %d",a);
+        }
+        else
+        {
+        printf("d is greater %d",d);
+        }
+        }
+        else
+        {
+        if(c>d)
+        {
+        printf("c is greater %d",c);
+        }
+        else
+        {
+        printf("d is greater %d",d);
+        }
+        }
+        }
+else
 {
-    printf("%d", a);
-}
-else if (b> a && b > c && b>d )
+if(b>c)
 {
-    printf("%d", b);
-}
-else if (c > a && c > b && c>d)
+if(b>d)
 {
-    printf("%d", c);
+printf("b is greater %d",b);
 }
-else if (d >a && d>b && d>c)
+else
 {
-printf("%d",d);
+printf("d is greater %d",d);
 }
 }
+else
+{
+if(c>d)
+{
+printf("c is greater %d",c);
+}
+else
+{
+printf("d is greater %d",d);
+}}}
+return 0;}
