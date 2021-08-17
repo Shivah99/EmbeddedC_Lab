@@ -5,7 +5,7 @@ float p,t;
 printf("enter the total marks out of 600: ");
 scanf("%f",&t); //p=percentage
  p=(t/600)*100;  
- printf("Percentage= %.2f",p);
+ printf("Percentage= %.2f \n",p);
 if(p>100)
 {
     printf("Entered marks over the total marks, please recalculate and enter");
