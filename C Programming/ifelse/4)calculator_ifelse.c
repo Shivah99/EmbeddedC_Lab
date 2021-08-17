@@ -12,22 +12,22 @@ scanf("%f%f",&a,&b);
 if(op=='+')
 {
     c=a+b;
-    printf("the add of a,b=%f",c);
+    printf("the add of a,b=%.2ff",c);
 }
         else if(op=='-')
         {
          c=a-b;
-        printf("the sub of a,b=%f",c);
+        printf("the sub of a,b=%.2f",c);
         }
        else if(op=='*')
         {
          c=a*b;
-        printf("the mul of a,b=%f",c);
+        printf("the mul of a,b=%.2f",c);
             }
         else if(op=='/')
         {
             c=a/b;
-        printf("the div of a,b=%f",c);
+        printf("the div of a,b=%.2f",c);
             }
 else 
 {
