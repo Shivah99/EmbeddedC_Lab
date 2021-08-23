@@ -1,23 +1,19 @@
-#include <stdio.h>
+#include<stdio.h>
 int main()
-
 {
-
-int i=1,n,fac=1;
-
+int i=1,n,c=0;
 printf("Enter n:");
-
 scanf("%d",&n);
-
 while(i<=n)
-
 {
-
-fac=fac*i;
-
-i++;
-
+if(n%i==0)
+{
+c++;
 }
-
-printf("fac=%d",fac);
+i++;
+}
+if(c==2)
+    printf("prime");
+else
+    printf("not prime");
 }
