@@ -6,7 +6,7 @@ printf("Enter the first number for the range: ");
 scanf("%d",&m); 
 printf("Enter the second number for the range: ");
 scanf("%d", &n);
-printf("\nDisplay even number between %d and %d are:", m, n); 
+printf("\nEven number between %d and %d are:", m, n); 
 i=m;
 while(i<=n)
 {
@@ -16,7 +16,7 @@ while(i<=n)
     printf("\n%d", i);
     i++;
     } 
-    printf("\n\nDisplay odd number between %d and %d are:", m, n); 
+    printf("\nOdd number between %d and %d are:", m, n); 
    i=m;
 while(i<=n) 
     {
