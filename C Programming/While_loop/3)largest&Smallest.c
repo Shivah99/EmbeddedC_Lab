@@ -8,8 +8,7 @@ int main()
     scanf ("%d", &n);
     largest=n;
     smallest=n;
-    inputs=inputs-1;
-   while( i<=inputs)
+   while( i<=inputs-1)
     {
         printf ("\n Enter next input: ");
         scanf ("%d",&n);
