@@ -13,7 +13,7 @@ int main()
   	i++;
   }
   
-  printf("\n The Final result of %d Power %d = %d", n, exponent, power);
+  printf("\n  %d to the Power %d = %d", n, exponent, power);
   
   return 0;
 }
