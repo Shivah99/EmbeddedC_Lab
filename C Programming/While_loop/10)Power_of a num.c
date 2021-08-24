@@ -9,7 +9,7 @@ int main()
     
  while( i <= exponent)
   {
-  	power = power * number;
+  	power = power * n;
   	i++;
   }
   
