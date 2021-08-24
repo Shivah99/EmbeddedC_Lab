@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main()
 {
-  int i=1,number,exponent,power=1;
+  int i=1,n,exponent,power=1;
   printf(" Enter any Number : ");
-  scanf(" %d", &number);
+  scanf(" %d", &n);
   printf("\n Enter the Exponent Vlaue: ");
   scanf(" %d", &exponent);
     
@@ -13,7 +13,7 @@ int main()
   	i++;
   }
   
-  printf("\n The Final result of %d Power %d = %d", number, exponent, power);
+  printf("\n The Final result of %d Power %d = %d", n, exponent, power);
   
   return 0;
 }
