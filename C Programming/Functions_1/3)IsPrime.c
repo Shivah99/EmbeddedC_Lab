@@ -6,7 +6,7 @@ int num, result;
 printf("Enter a number: ");
 scanf("%d", &num);
 result = IsPrime(num);
-if(result=1)
+if(result==1)
 printf("The given number is prime.\n");
 else
 printf("The given number is not prime. \n");
