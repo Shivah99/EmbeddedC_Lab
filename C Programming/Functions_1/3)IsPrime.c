@@ -8,9 +8,9 @@ printf("Enter a number: ");
 scanf("%d", &num);
 res= IsPrime(num);
 if(res==1)
-printf("The given number is prime.\n");
+printf("%d is prime.\n",num);
 else
-printf("The given number is not prime. \n");
+printf("%d is not prime. \n",num);
 
 }
 int IsPrime(int num)
