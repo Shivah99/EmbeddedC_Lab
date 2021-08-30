@@ -2,7 +2,7 @@
 int IsPrime(int num);
 void main()
 {
-int num, i, result;
+int num, result;
 printf("Enter a number: ");
 scanf("%d", &num);
 result = IsPrime(num);
