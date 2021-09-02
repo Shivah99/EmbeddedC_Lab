@@ -50,9 +50,9 @@ int validdate(int d, int m, int y) {
 }
 int main() {
    int d1,m1,y1,d2,m2,y2;
-    printf("Enter d1/m1/y1 ");
+    printf("\nEnter d1/m1/y1 ");
     scanf("%d/%d/%d",&d1,&m1,&y1);
-     printf("Enter d2/m2/y2 ");
+     printf("\nEnter d2/m2/y2 ");
     scanf("%d/%d/%d",&d2,&m2,&y2);
    
       if(validdate(d1, m1, y1))
@@ -65,9 +65,9 @@ int main() {
          printf("date is not valid\n");
      
     if(comparedates(d1,m1,y1,d2,m2,y2))
-    printf("date 1 is older");
+    printf("date 1 is older\n");
     else
-    printf("date 2 is older");
+    printf("date 2 is older\n");
     return 0;
 }
    
