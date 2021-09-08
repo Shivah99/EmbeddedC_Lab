@@ -7,17 +7,24 @@ int main()
     printf(" \na[%d]= ",i);
     scanf("%d", &a[i]);
     }
-    largest = a[0];
-    for(i = 1; i < 10; i++)
+    
+    printf ("The array elements are: \n");
+for(i=0;i<10;i++)
+printf("%d  ",a[i]);
+printf ("\n");
+            
+    largest=a[0];
+    for(i = 0; i < 10; i++)
     {
         if(largest < a[i]) 
         {
-    largest = a[i]; }
+    largest = a[i]; 
+        }
     }
     printf("\nThe largest element is: %d",largest);
 
     smallest = a[0];  
-    for(i = 1; i < 10; i++) 
+    for(i = 0; i < 10; i++) 
     {
         if(smallest>a[i])
         {
