@@ -4,7 +4,7 @@
 
 ### arrays1
 
-#### Date 07-09-2021
+#### Date 08-09-2021
 
     1)	"Write the following program : 
         Declare an integer array of size 100.
