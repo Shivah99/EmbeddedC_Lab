@@ -2,6 +2,26 @@
 
 ## C programming 
 
+### arrays1
+
+#### Date 07-09-2021
+
+    1)	"Write the following program : 
+        Declare an integer array of size 100.
+        Assign numbers 1-100 to each element of the array.
+        Print all the numbers.
+        Print all even elements.
+        Print all odd elements.
+        Add 5 to each element and print 6 – 105 numbers."
+    
+    2)  Declare an array of size 10. Enter 10 elements and save them in the array. Print the array . 
+        Find out the biggest and smallest numbers and their indexes and print. 
+    
+    3)	Write a program to search for a specific element given by the user, in an array and display its index. 
+    
+    4)   Write a program to find the sum of all elements in an integer array, and print the sum.
+
+
 ### StorageClasses
 
 ##### Date 02-09-2021
