@@ -5,3 +5,4 @@ int addstock(int n);
 int purchase();
 int sales();
 int stock();
+int sell();
