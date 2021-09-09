@@ -21,8 +21,8 @@ printf ("\n");
     largest = a[i]; 
         }
     }
-    printf("\nThe largest element is: %d",largest);
-
+    printf("\nThe largest element is: %d if index %d",largest,i);
+    
     smallest = a[0];  
     for(i = 0; i < 10; i++) 
     {
@@ -31,6 +31,6 @@ printf ("\n");
             smallest = a[i]; 
         }
     }
-    printf("\nThe smallest element is: %d", smallest);
+    printf("\nThe smallest element is: %d of index %d", smallest,i);
     return 0;
     }
