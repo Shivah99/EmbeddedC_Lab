@@ -1,3 +1,4 @@
+
 #include<stdio.h>
 int main()
 {
@@ -10,11 +11,7 @@ int main()
     printf("\n array1 values:");
     for(i=0;i<n;i++)
         printf("%d ",a[i]);
-       
-    for(i=0;i<n;i++)
-        a[i]=a[n-i-1];
-      printf("\n Rev array1 values: ");
-      for(i=0;i<n;i++) 
-        printf("%d ",a[i]);
-  
+        printf("\n Rev array1 values: ");   
+    for(i=i-1;i>=0;i--)
+    printf("%d ",a[i]);
 }
