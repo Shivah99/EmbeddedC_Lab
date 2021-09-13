@@ -12,7 +12,6 @@
         returns the length of the string, that is number of characters before the first null character
     
     2)  void strcpy(char dest[], char src[]);
-    
         copy all characters upto first null character from src to dest, including null character.
     
     3)  void strcat(char dest[],char str[]);
@@ -20,7 +19,6 @@
         Replace first null character in dest with first character from src and follow the remaining characters. copy null character at the end after copy.
     
     4)  void strlwr(char str[]);
-    
         convert all upper case letters to lower case.
     
     5)  void strupr(char str[]);
