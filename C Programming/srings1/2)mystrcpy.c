@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main() 
 {
-    char s1[100], s2[100], i,j;
+    char s1[100], s2[100], i;
     printf("Enter string s1: ");
     scanf("%s",s1);
     mystrcpy(s2,s1);
