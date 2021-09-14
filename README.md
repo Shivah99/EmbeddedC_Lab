@@ -22,7 +22,67 @@
     6)  int strrrev(char s[], char c);
     
     7)  int strstr(char str[], char substr[]);
+    
 
+### Arrays3
+
+#### Date 13-09-2021
+
+    1)  Given an array of n integers where n>1, return an array of same size an input array where at every index of the output array should contain the product of all elements in the array except the element at the given index.
+            Example:
+            arr[] = {10, 4, 1, 6, 2}
+            prod[] = {48,120,480,80,240}
+    
+    2)  LAB Test Question:
+    
+        Write a program, to insert a number at the right place in a sorted array of integers and delete a number and shift accordingly. Array maximum size is fixed. Empty spaces are represented by -1. 
+        If a value is inserted, which is already existing in the array, give the following message, and dont insert the value : "Duplicate values are not allowed"
+        If a value is requested for deletion, which is not there in the array, give the following message: "Cannot delete, the value is not found"
+        When the array is full, and a new value is inserted, the following message should be given: "Cannot insert. Array is full"
+        Assume, the program will store only positive values in the array, so -1 means empty space in the array.
+    
+            eg., ip array size : 5
+            ip array of size 5 : 1 2 5 6 8
+            choose 1) insert 2) delete 3)Quit
+            1
+            "Cannot insert. Array is full"
+            choose 1) insert 2) delete 3)Quit
+            2
+            ip integer to be deleted : 1
+            output : 2 4 5 6 -1
+            choose 1) insert 2) delete 3)Quit
+            1
+            ip integer to be inserted: 7
+            output : 2 4 5 6 7
+            choose 1) insert 2) delete 3)Quit
+            2
+            ip integer to be deleted: 3
+            output : 2 4 5 6 -1
+            
+            choose 1) insert 2) delete 3)Quit
+            2
+            ip integer to be deleted: 2
+            output :4 5 6 -1 -1
+            
+            choose 1) insert 2) delete 3)Quit
+            1
+            ip integer to be inserted: 10
+            
+            output :4 5 6 10 -1
+            
+            choose 1) insert 2) delete 3)Quit
+            1
+            ip integer to be inserted: 6
+            Duplicate values are not allowed
+            output :4 5 6 10 -1
+            choose 1) insert 2) delete 3)Quit
+            1
+            ip integer to be inserted: 8
+            
+            output :4 5 6 8 10
+            choose 1) insert 2) delete 3)Quit
+            3
+            Thank you
 
 
 ### strings1
