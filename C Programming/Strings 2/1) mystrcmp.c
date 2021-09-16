@@ -26,5 +26,5 @@ int mystrcmp(char A[], char B[])
 	else
    	{
    	return 0;
-	}
+	}}
   	
