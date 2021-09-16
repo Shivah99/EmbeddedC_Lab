@@ -7,13 +7,8 @@ int main()
    gets(a);
    printf("Input string2\n");
    gets(b);
-   if (mystrcmp(a,b)==0)
-      printf("Equal strings.\n");
-   else if (mystrcmp(a,b)==1)
-     printf("\n b is Less than a");
-     else
-     printf("\n a is Less than b");
-   return 0;
+   printf("%d", mystrcmp(a,b));
+     
 }
 int mystrcmp(char A[], char B[])
 {
@@ -33,5 +28,3 @@ int mystrcmp(char A[], char B[])
    	return 0;
 	}
   	
-  	return 0;
-}
