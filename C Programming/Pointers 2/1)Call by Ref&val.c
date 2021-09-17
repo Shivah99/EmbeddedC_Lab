@@ -5,11 +5,12 @@ int main ( )
  {
   int a = 25;
   int b = 100;
-  printf("a is %d, b is %d\n", a, b);
-  refswap(&a, &b);
-  printf("//Call by REFERENCE --> a is %d, b is %d\n", a, b);
+  printf("a = %d, b = %d\n", a, b);
     valswap(a,b);
-    printf("//Call by VALUE --> a is %d, b is %d\n", a, b);
+    printf("//Call by VALUE in main()--> a = %d, b = %d\n", a, b);
+  refswap(&a, &b);
+  printf("//Call by REFERENCE --> a = %d, b = %d\n", a, b);
+    
     
   return 0;
 }
@@ -19,6 +20,7 @@ int t;
     t=x;
     x=y;
     y=t;
+    printf("//Call by VALUE in swap()--> a = %d, b = %d\n", x, y);
 }
 void refswap (int *a, int *b) 
 {
