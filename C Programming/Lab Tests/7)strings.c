@@ -1,4 +1,4 @@
-
+//dt: 16/09/2021
 #include<stdio.h>
 #define size 100
 int myatoi(char s1[]);
