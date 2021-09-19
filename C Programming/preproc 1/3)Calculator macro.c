@@ -6,8 +6,7 @@
 int main()
 {
     char ch;
-    scanf(" %c", &ch);
-    if(ch=='y'||ch=='Y')
+    do
     {
     float x,y;
     printf("Enter x,y Values: \n");
@@ -16,6 +15,11 @@ int main()
     SUB(x,y)
     MUL(x,y)
     DIV(x,y)
-    else
+     printf("Enter Y to continue or press any key");
+    scanf(" %c", &ch);   
+    }
+   
+    while(ch=='y'||ch=='Y');
+    
     return 0;
-}}
+}
