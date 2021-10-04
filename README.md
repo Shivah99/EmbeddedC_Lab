@@ -1,6 +1,6 @@
 # KM42BESD06 Burgula Shivaji  - Lab Assignments Repo.
 
-## micro Processors 
+## Micro Processors 
 
 ### ALP Lab Assignments:
 
