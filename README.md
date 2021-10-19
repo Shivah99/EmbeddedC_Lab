@@ -1,5 +1,22 @@
 # KM42BESD06 Burgula Shivaji  - Lab Assignments Repo.
 
+## LSP
+
+### GNU Tool Chain
+
+#### Dt: 19-10-2021
+
+    Mini Project - GNU Tool Chain 
+        a. Assume that you are working on a calculator project contained in the directory calculator. under this directory there are several 
+            subdirectories with names "lib","doc","inc“,"src“ and “bin”.
+        b. The objective is to create a top level Makefile in the calculator directory and each of the source code directories: lib and src.
+        c. The include directory contains the header files for the project and does not need a Makefile as these don't have to be compiled separately.
+        d. When make is invoked in the calculator directory it should automatically invoke the Makefile in each of the src directories automatically and build a 
+            library in the "lib" directory and two executables in each of "src" directory.
+        e. Create any source files with all their header files in the include directory.
+
+
+
 ## Micro Processors 
 
 ### BitWise Operstors:
