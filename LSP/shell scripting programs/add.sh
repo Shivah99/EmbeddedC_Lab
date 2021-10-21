@@ -1,12 +1,10 @@
-
 #!/bin/sh
 
-echo "Enter two numbers to ADD"
-read num1
-read num2
-if [ $# -le  2 ]
+sum=$(($1 + $2))
+if [ $# -eq  2 ]
 then
-	echo "$(( $num1 + $num2 ))"
-else
+echo "Sum = $sum"
+else 
 	echo "error"
 fi
+
