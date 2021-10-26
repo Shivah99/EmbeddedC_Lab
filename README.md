@@ -2,6 +2,18 @@
 
 ## LSP
 
+### Advanced File Operations:  
+
+#### Dt:25-10-2021
+
+    1.	WAP your own version of cat command using mmap system call?
+    2.	Write an Linux System Programming copy one file content to another file using mmap() system call.
+    3.	Write a program to read framebuffer fixed size information?   
+    Hint: Device name is /dev/fb0.
+    4.  Write a program show the /dev/input/event0 device name?
+     
+
+
 ###  Basic File Operations: (open(), read(), write(), close())
 
 #### Dt:22-10-2021
