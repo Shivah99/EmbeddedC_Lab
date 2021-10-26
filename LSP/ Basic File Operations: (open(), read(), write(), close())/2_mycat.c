@@ -7,7 +7,7 @@
 int main(int argc, char *argv[])
 {
 	int ret;
-	char buff[20];
+	char buff[1024];
 	
 	ret = open(argv[1],O_RDONLY);
 	if (ret < 0)
@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
 	}
 	else
 		printf("open success ret:%d\n",ret);
-	ret = read(ret,buff,6);
+	ret = read(ret,buff,1024);
 	if (ret < 0)
 	{
 		perror("read fails:");
@@ -25,6 +25,7 @@ int main(int argc, char *argv[])
 	}
 	else
 		printf("read success ret:%d\n",ret);
+
 	ret = open("abc",O_RDONLY);
 	if (ret < 0)
 	{
@@ -32,5 +33,5 @@ int main(int argc, char *argv[])
 		printf("errno:%d\n",errno);
 	}
 	else
-		printf("open success ret:%d\n",ret);
+		printf("open success ret:%d\n %s\n\n",ret,buff);
 }
