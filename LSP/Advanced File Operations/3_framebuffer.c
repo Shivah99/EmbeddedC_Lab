@@ -23,8 +23,8 @@ int main()
 	exit(0);
 	}	
 
-	printf("xres:%d yres:%d bits_per_pixel:%d\n",temp.xres,temp.yres,temp.bits_per_pixel);
-
+	printf("xres:%d yres:%d \nbits_per_pixel:%d\n",temp.xres,temp.yres,temp.bits_per_pixel);
+return 0;
 
 
 }
