@@ -2,6 +2,17 @@
 
 ## LSP
 
+### Mini Project (Real Lab experiment):
+    
+#### Dt: 27-10-2021
+
+    1.	Write a program open a power button and mouse device and read data from both the devices without blocking any device?
+    
+    2.	Write a Linux System Programming read Kernel Masters bmp Logo and write in to the monitor. 
+            Hint: In Linux Monitor is called Frame Buffer is located in /dev/fb0. Choose logo resolution it matches to your monitor resolution.
+
+
+
 ### Advanced File Operations:  
 
 #### Dt:25-10-2021
