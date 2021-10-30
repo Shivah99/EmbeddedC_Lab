@@ -2,6 +2,24 @@
 
 ## LSP
 
+### Mini Project on Process Management
+
+#### Dt:30-10-2021
+
+    1.  Write a system program to implement your own shell?
+            Hint: using fork() + exec() , almost same as system() library implementation. 
+
+    
+
+### Lab Assignment
+        
+#### Dt:30-10-2021        
+        
+        
+    1.  WAP your own version of system() library?
+        
+
+
 ### Mini Project (Real Lab experiment):
     
 #### Dt: 27-10-2021
