@@ -6,12 +6,12 @@
 
 #### Dt:01-11-2021
 
-1.	What is a zombie process? What is an orphan process? WAP to create a zombie process?
-2.	What is difference between fork, vfork and exec system call?
-3.	How to start a new process in shell? Explain with example how ls command works?
-4.	Write a list of system calls used in process management with proper syntax?
-5.	Write a program your own kill () command?
-6.	Write a program your own nice () command?
+    1.	What is a zombie process? What is an orphan process? WAP to create a zombie process?
+    2.	What is difference between fork, vfork and exec system call?
+    3.	How to start a new process in shell? Explain with example how ls command works?
+    4.	Write a list of system calls used in process management with proper syntax?
+    5.	Write a program your own kill () command?
+    6.	Write a program your own nice () command?
 
 
 
