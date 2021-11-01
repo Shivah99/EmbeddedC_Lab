@@ -1,0 +1,9 @@
+## Zombie Process:
+
+When a process forks and the child process terminates, the child's internal task structure information is maintained within the kernel.
+The parent process should (is expected to) fetch the child's status information by doing a wait() on for the child process. 
+Only then does the kernel release the child's context information and the child is truly dead.
+    
+    If, however, the parent process does not bother to wait for it's child (for whatever reason), then, when the child dies, 
+it's task information is still maintained in the kernel. The state of the child process now is neither completely dead nor alive then
+it is called a Zombie.
