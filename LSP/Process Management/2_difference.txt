@@ -1,0 +1,15 @@
+fork(): Duplicating a process image.
+
+    In fork() system call,the child process and parent process gets executed simultaneously.
+
+    
+vfork():  
+
+    In fork() system call,Child process suspends execution of parent process until child process 
+completes its execution as both processes share the same address space.
+
+
+execve(): Replacing a process image.
+    
+    When a process calls exec, all data in the process is lost and replaced with new data
+given in the call 
