@@ -1,0 +1,10 @@
+    
+To start a new process,we have to Process Management libraries and system calls
+like- 
+    system()--The system(), starts the shell process and then executes the shell command process.
+    
+    execve()--When execve(), start a new process and replace the current process. That is, the program 
+    will not return to the original process,fork().
+    
+    fork()-- when fork() executes,The code executed is the same, but the subprocess has its own data space,
+    environment, and file descriptors.
