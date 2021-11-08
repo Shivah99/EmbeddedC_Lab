@@ -1,0 +1,11 @@
+
+Task:
+    A task is a set of program instructions that are loaded in memory.
+    
+Thread:
+    A thread is merely a process that shares certain resources with other processes.
+    (which just happens to share resources, such as an addressspace, with other processes)
+    
+Process:
+    A process is an “an address space with one or more threads executing within that addressspace,and the required system resources for those threads.”
+    
