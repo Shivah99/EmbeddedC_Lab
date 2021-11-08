@@ -1,0 +1,14 @@
+// Do you have any idea about thread safe? How can you implement it?
+
+     When a thread is running using global variables there occurs 
+•Data Inconsistency
+•Loss of Data
+•Race around conditions changes the value of the variable in a process.
+     
+     To make a thread safe the following are Solution:
+     
+    1.Using signals to synchronize on producer and consumer threads.
+    2.Synchronization Mechanisms like 
+        a)Semaphore: A semaphore is an unsigned integer variable which acts as "atomic (non-preemptive) Variable".
+        
+        b)Mutex: A Mutex is a lock that we set before using a shared resource and release after using it. When the lock is set, no other thread can access the locked region of code.
