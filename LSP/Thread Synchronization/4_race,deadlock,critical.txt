@@ -1,6 +1,6 @@
 // What is Critical section, deadlocks, race around condition are problems that happen in thread synchronization?
 
-**Critical Section: Critical section is that part of the program where shared resources are eaccessed.**
+Critical Section: Critical section is that part of the program where shared resources are eaccessed.
 
 Deadlocks: A deadlock is a scenario when one thread is waiting for a resource which is held by the second thread, while the second thread
             is waiting for a resource held by the first thread. Thus causing both the threads to wait for each other infinitely.
