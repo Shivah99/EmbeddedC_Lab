@@ -1,0 +1,7 @@
+//  How threads communicate with each other?
+
+      A Thread is merely a process that shares certain resources with other processes.
+    All the threads in the same program share the same memory space. If an object is 
+    accessible to various threads then these threads share access to that object's data member 
+    and thus communicate each other.
+    
