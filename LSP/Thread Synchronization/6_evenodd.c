@@ -11,7 +11,7 @@ pthread_mutex_t lock = PTHREAD_MUTEX_INITIALIZER;
 pthread_cond_t condition = PTHREAD_COND_INITIALIZER;
 void* even(void* data)
 {
-    int tid = *((int*)data);
+    
     while (1)
     {
        pthread_mutex_lock(&lock);
@@ -22,7 +22,7 @@ void* even(void* data)
         if (count < MAX_COUNT)
         {
             count++;
-            printf("Thread %d, even= %d\n", tid, count);
+            printf("even = %d\n",count);
         }
 
         // signal the other thread
@@ -39,7 +39,7 @@ void* even(void* data)
 
 void* odd(void* data)
 {
-    int tid = *((int*)data);
+  
     while (1)
     {
        pthread_mutex_lock(&lock);
@@ -50,7 +50,7 @@ void* odd(void* data)
         if (count < MAX_COUNT)
         {
             count++;
-            printf("Thread %d, odd %d\n", tid, count);
+            printf("odd  = %d\n",count);
         }
 
         // signal the other thread
