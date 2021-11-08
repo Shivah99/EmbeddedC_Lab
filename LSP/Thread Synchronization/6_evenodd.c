@@ -15,20 +15,14 @@ void* even(void* data)
     while (1)
     {
        pthread_mutex_lock(&lock);
-
         while (count%2 == 0)
            pthread_cond_wait(&condition, &lock);
-
         if (count < MAX_COUNT)
         {
             count++;
             printf("even = %d\n",count);
         }
-
-        // signal the other thread
         pthread_cond_signal(&condition);
-
-        // check if time to exit
         if (count >= MAX_COUNT)
         {
             pthread_mutex_unlock(&lock);
@@ -39,24 +33,17 @@ void* even(void* data)
 
 void* odd(void* data)
 {
-  
     while (1)
     {
        pthread_mutex_lock(&lock);
-
         while (count%2 != 0)
            pthread_cond_wait(&condition, &lock);
-
         if (count < MAX_COUNT)
         {
             count++;
             printf("odd  = %d\n",count);
         }
-
-        // signal the other thread
         pthread_cond_signal(&condition);
-
-        // check if time to exit
         if (count >= MAX_COUNT)
         {
             pthread_mutex_unlock(&lock);
@@ -66,15 +53,11 @@ void* odd(void* data)
 }}
 
    
-int main(int argc, char** argv)
+int main()
 {
     pthread_t thread1, thread2;
-    int tid[] = {1, 2};
-     
-    // create threads
-    pthread_create(&thread1, NULL, odd, &tid[0]);
-    pthread_create(&thread2, NULL, even, &tid[1]);
-    // wait for threads to finish their work
+    pthread_create(&thread1, NULL, odd, NULL);
+    pthread_create(&thread2, NULL, even,NULL);
     pthread_join(thread1, NULL);
     pthread_join(thread2, NULL);
      
