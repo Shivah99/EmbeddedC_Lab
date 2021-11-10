@@ -2,28 +2,36 @@
 
 ## LSP
 
+### SOCKET Programming
+
+#### Dt: 07-11-2021
+
+    1   server6.c - a program that serves multiple clients using threads.
+        
+    2   server7.c & client7.c: simple command line Chat Application.
+
 ### INTER Process Communication
 
 #### Dt: 05-11-2021
     
         **Children same as parent [fork() only]**
         
-        Assignment 1:
+    1   Assignment 1:
         Write a producer and consumer problem using fork() and shared memory. Synchronizing producer and consumer process using POSIX signals.
         
-        Assignment 2:
+    2   Assignment 2:
         Write a producer and consumer problem using fork() and shared memory.
         Synchronizing producer and consumer process using named semaphores.
         
         **Children is not same as parent [fork() + exec()]**
         
-        Assignment 3:
+    3   Assignment 3:
         Write a separate program for producer and consumer problem using fork(), exec() and shared memory.
         Synchronizing producer and consumer process using POSIXsignals.
         
         **Unrelated Process Communication [Without fork() & exec()]**
         
-        Assignment 4: Write a separate program for producer.cand consumer.cusing Shared Memory, named semaphores without using fork() and exec() system calls.
+    4    Assignment 4: Write a separate program for producer.cand consumer.cusing Shared Memory, named semaphores without using fork() and exec() system calls.
         Process Synchronization
 
 ### Thread Synchronization
