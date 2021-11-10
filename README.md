@@ -5,20 +5,26 @@
 ### INTER Process Communication
 
 #### Dt: 03-11-2021
-
-Children same as parent [fork() only]
-Assignment 1:
-Write a producer and consumer problem using fork() and shared memory. Synchronizing producer and consumer process using POSIX signals.
-Assignment 2:
-Write a producer and consumer problem using fork() and shared memory.
-Synchronizing producer and consumer process using named semaphores.
-Children is not same as parent [fork() + exec()]
-Assignment 3:
-Write a separate program for producer and consumer problem using fork(), exec() and shared memory.
-Synchronizing producer and consumer process using POSIXsignals.
-Unrelated Process Communication [Without fork() & exec()]
-Assignment 4: Write a separate program for producer.cand consumer.cusing Shared Memory, named semaphores without using fork() and exec() system calls.
-Process Synchronization
+    
+        Children same as parent [fork() only]
+        
+        Assignment 1:
+        Write a producer and consumer problem using fork() and shared memory. Synchronizing producer and consumer process using POSIX signals.
+        
+        Assignment 2:
+        Write a producer and consumer problem using fork() and shared memory.
+        Synchronizing producer and consumer process using named semaphores.
+        
+        Children is not same as parent [fork() + exec()]
+        
+        Assignment 3:
+        Write a separate program for producer and consumer problem using fork(), exec() and shared memory.
+        Synchronizing producer and consumer process using POSIXsignals.
+        
+        Unrelated Process Communication [Without fork() & exec()]
+        
+        Assignment 4: Write a separate program for producer.cand consumer.cusing Shared Memory, named semaphores without using fork() and exec() system calls.
+        Process Synchronization
 
 ### Thread Synchronization
 
