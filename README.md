@@ -1,5 +1,31 @@
 # KM42BESD06 Burgula Shivaji  - Lab Assignments Repo.
 
+## EMBEDDED C
+
+### GDB Lab Assignments
+
+#### Dt: 13-11-2021
+
+    Debug the below programs using gdb.
+    
+    Control statements:
+        1. gdb_sample.c: class room example program, attached this mail. 
+        2. % grading with % as float.
+        3. Find biggest of n numbers, without using arrays.
+    
+    Pointers:
+        4. call by value
+        5. call by reference
+    
+    Storage Classes/Functions:
+        6. Super Market
+        
+    Strings:
+        7. strstr() - sub string finding
+    
+    Debug all the above programs using gdb, copy and paste the debug output in to text file for each program
+
+
 ## LSP
 
 ### SOCKET Programming
