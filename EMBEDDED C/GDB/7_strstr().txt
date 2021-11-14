@@ -1,4 +1,4 @@
-   ``` km@km-VirtualBox:~/KM_GIT/GDB$ gdb a.out 
+    km@km-VirtualBox:~/KM_GIT/GDB$ gdb a.out 
     GNU gdb (Ubuntu 8.1.1-0ubuntu1) 8.1.1
     Copyright (C) 2018 Free Software Foundation, Inc.
     License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
@@ -47,4 +47,4 @@
     [Inferior 1 (process 2552) exited normally]
     (gdb) Quit
     (gdb) Quit
-    (gdb) ```
+    (gdb) 
