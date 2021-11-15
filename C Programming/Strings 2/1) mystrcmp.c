@@ -27,4 +27,4 @@ int mystrcmp(char A[], char B[])
    	{
    	return 0;
 	}
-  	
+}
