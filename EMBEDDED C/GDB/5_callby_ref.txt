@@ -1,0 +1,57 @@
+km@km-VirtualBox:~/KM_GIT/GDB$ gdb ./5_callby_ref 
+GNU gdb (Ubuntu 8.1.1-0ubuntu1) 8.1.1
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from ./5_callby_ref...done.
+(gdb) b 8
+Breakpoint 1 at 0x6d8: file 5_callby_ref.c, line 8.
+(gdb) b 13
+Breakpoint 2 at 0x71f: file 5_callby_ref.c, line 13.
+(gdb) b 15
+Breakpoint 3 at 0x74b: file 5_callby_ref.c, line 15.
+(gdb) r
+Starting program: /home/km/KM_GIT/GDB/5_callby_ref 
+
+Breakpoint 2, main () at 5_callby_ref.c:13
+13	  printf("before swap:a = %d, b = %d\n", a, b);
+(gdb) p a
+$1 = 25
+(gdb) p b
+$2 = 100
+(gdb) c
+Continuing.
+before swap:a = 25, b = 100
+
+Breakpoint 1, refswap (a=0x7fffffffe0b0, b=0x7fffffffe0b4) at 5_callby_ref.c:8
+8	printf("after swap:a = %d, b = %d\n", *a, *b);
+(gdb) p a
+$3 = (int *) 0x7fffffffe0b0
+(gdb) p b
+$4 = (int *) 0x7fffffffe0b4
+(gdb) c
+Continuing.
+after swap:a = 100, b = 25
+
+Breakpoint 3, main () at 5_callby_ref.c:15
+15	  printf("after call:a = %d, b = %d\n", a, b);
+(gdb) p a
+$5 = 100
+(gdb) p b
+$6 = 25
+(gdb) c
+Continuing.
+after call:a = 100, b = 25
+[Inferior 1 (process 3734) exited normally]
+(gdb) Quit
+(gdb) 
