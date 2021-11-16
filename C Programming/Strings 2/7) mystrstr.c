@@ -1,37 +1,37 @@
-#include <stdio.h>
-#include<string.h>
+#include<stdio.h>
+int StrStr(char str[], char strSub[])
+{
+    int i=0, j=0;
+    int nTemp = i;
+    int nStrLen = strlen(str);
+    int nStrSubLen = strlen(strSub);
+    for(i=0; i<nStrLen-nStrSubLen; i++)
+    {
+        nTemp = i;
+        for(j=0; j<nStrSubLen; j++)
+        {
+             
+            if(str[nTemp]==strSub[j])
+            {
+                if(j==nStrSubLen-1)
+                    return 1;
+                nTemp++;
+            }
+            else
+                break;
+        }
+    }
+    return 0;
+}
 int main()
 {
-char str1[30];
-    printf("Enter s1: ");
- scanf(" %[^\n]s", str1);
-char str2[30];
-     printf("Enter s2: ");
-     scanf(" %[^\n]s", str2);
-mystrstr(str1,str2);
-  
-}
-void mystrstr(char str1[],char str2[])
-{
-int i, j, k, m, count = 0;
-for(i = 0; str2[i] !='\0'; i++);
-for(j = 0 ; str1[j]!='\0'; j++)
-{
-if(str1[j] == str2[0])
-{
-for(k = 0 ; k < i;k++)
-{
-if(str1[j]==str2[k]){
-j++;
-count++;
-}
-}
-if(count == i)
-{
-for(m=j-i; str1[m]!='\0'; m++)
-printf("%c",str1[m]);
-}
-}
-}
-return 0;
+    char str[20],str1[20];
+    printf("enter str and str1");
+    scanf("%s%s",str,str1);
+ 
+    if(StrStr(str, str1))
+        printf("%s - is  found in %s",str1,str);
+    else
+      printf("%s - is not found in %s",str1,str);
+    return 0;       
 }
