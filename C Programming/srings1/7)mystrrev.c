@@ -1,18 +1,23 @@
-#include <stdio.h>
+#include<stdio.h>
+#include<string.h>
+void mystrrev(char str[])
+{
+	char temp;
+	int i, j, n;
+	n = strlen(str);
+for (i = 0, j = n - 1; i < j; ++i, --j)
+    {
+		temp = str[j];
+		str[j] = str[i];
+		str[i] = temp;
+	}
+
+}
+
 int main()
 {
-    int i,c;
-    char a[100];
-    printf("\nString before rev:");
-    scanf("%[^\n]99s",a);
-    c=mystrlen(a);
-    for(i=c-1;i>=0;i--)
-    printf("%c",a[i] );
-}
-int mystrlen(char a[])
-{
-    int i;
-    for (i=0;a[i]!='\0';i++);
-    printf("\n");
-    return i;
+	char string[100];
+	printf("Enter a String: ");
+	scanf("%s", string);mystrrev(string);
+	printf("\n\nString After Reverse: %s", string);
 }
