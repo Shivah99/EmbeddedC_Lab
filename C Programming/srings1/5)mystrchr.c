@@ -1,17 +1,19 @@
 #include <stdio.h>
 #include<string.h>
-char mystrchr(char str[],char str1[]);
+char mystrchr(char str[],char ch);
 int main()
 {
 char str[] = "Bangalore";
-    printf("str1:%s\n",str);
-char str1[12];
-mystrchr(str,str1);
+    char  ch = 'g';
+    printf("str1:%s\nchar:%c\n",str,ch);
+
+   
+printf("Occurence of %c in %s is at pos:%d",ch,str,mystrchr(str,ch));
 }
-char mystrchr(char str[],char str1[])
+char mystrchr(char str[],char ch)
 {
     int i, j, k = 0;
-    char  ch = 'g';
+    char str1[12];
 for(i=0; str[i]!='\0'; i++){
 if(str[i]==ch)	{
 for(j=i; str[j]!='\0'; j++){
@@ -22,6 +24,6 @@ str1[k]='\0';
 break;
 }
 }
-printf(" occurance of %c is at %d",ch,i);
+return i;
 return 0;
 }
