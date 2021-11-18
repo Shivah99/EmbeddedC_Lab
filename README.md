@@ -1,5 +1,38 @@
 # KM42BESD06 Burgula Shivaji  - Lab Assignments Repo.
 
+## C Programming
+
+### Strings With Pointers
+
+#### Dt: 13-11-2021
+1	Take a string as an input, and count and return the number of words in the string using a function. 
+Take space, comma,exclamation, question mark and fullstop as delimitters for word counting. 
+
+2	Write a function that takes a string as input, and determines whether the string is a palindrome or not.
+
+3	 Write a function to replace a given character by another character in a string.
+
+4	"WAP to display the word expansion of a number
+eg., Input : 789
+Output : Seven Eight Nine"
+
+5 Implement your own versions of the below functions using pointer increment / decrement method:
+      Strlen – string length
+      Strrev – string reverse
+      Strcpy – string copy
+      Strcmp – string comparison
+      Strcat – string concatenation 
+
+6	Write a trim() function,that will remove the leading and trailing spaces from a string.
+eg., Input : "    str  str   "
+Output : "str str"
+
+7	Write a program to find if a string is numerical or alphabetic or alpha numeric.
+8	Write a function to convert a numerical string to integer (atoi() library function own implementation)
+eg ., scanf(""%s"", str); // str is a character array : input is 345
+// write the functionality to create an integer num, with value 345, taken from string str
+printf(""%d"", num); // num is an integer : output is 345
+
 ## EMBEDDED C
 
 ### GDB Lab Assignments
