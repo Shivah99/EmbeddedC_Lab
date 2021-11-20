@@ -63,6 +63,42 @@
 
 ## C Programming
 
+### Multi-Dimension Arrays 
+
+#### Dt: 19-11-2021
+
+    1)	Declare a two dimensional array of elements for sales details of a store, for each item, for each sales man. 
+        Take the sales values as input and print the array in matrix form.
+            Find out and print the following :
+            a ) Total sales by each sales man
+            b ) Total sales for a item
+            c ) Total sales
+    
+    2)  Write the following program : 
+        Declare a two dimensional array of elements and find and print its transpose.
+            eg., if the matrix is :       1 3
+                                          4 5
+                                          7 8
+            
+            its transpose should be :     1 4 7
+                                          3 5 8
+    3)  Write a program  for matrix addition and subtraction.
+    
+    4)  Write a program  for matrix multiplication.
+    
+    5)  Search for an element in a two dimentional array, and print its position - as row and column numbers
+    
+    6)  Declare a two dimensional array of characters, read names from the user and print them back.
+    
+    7)   Declare a three dimensional array of elements for sales details of a store, for x number of items, 
+        sold by y number of sales men , for a period of z number of days. Take the sales values as input and 
+        print the array in matrix form for each day. Also find and print the following :
+            a ) Total sales by each sales man per day.
+            b ) Total sales of each item per day.
+            c ) Total sales made by each sales man for z number of days.
+            d ) Total sales of each item for z number of days.
+            e ) Total sales of the super market for z days.
+
 ### Strings With Pointers
 
 #### Dt: 13-11-2021
