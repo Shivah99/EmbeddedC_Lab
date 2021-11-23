@@ -1,5 +1,29 @@
 # KM42BESD06 Burgula Shivaji  - Lab Assignments Repo.
 
+## Advanced C
+
+### charptr
+
+#### Dt: 19-11-2021
+
+Write the below functions using the pointer increment /decrement method ,and return the destination string (modified string) base address as return value.
+
+1)Write a function to replace a given character by another character in a string and returns the modified string as return value.
+
+2)"Write a program to convert a string into upper case and print.
+eg., input : Hello
+output : HELLO"
+
+3)"Write a program to convert a string into lower case and print.
+eg., input : Hello
+output : hello"
+
+4)Strrev – string reverse
+
+5)Strcpy – string copy
+
+6)Strcat – string concatenation
+
 ## EMBEDDED C
 
 ### Lab Assignments on GPIO Interrupt:
@@ -61,7 +85,7 @@
         USER LED2 (RED – PC5): ON (50msec), OFF (250msec), ON (50msec), OFF (500msec) periodically.
 
 
-## C Programming
+## Advanced C
 
 ### Multi-Dimension Arrays 
 
