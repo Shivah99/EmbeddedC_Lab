@@ -2,6 +2,54 @@
 
 ## Advanced C
 
+### structures
+
+#### Dt: 02-12-2021
+    
+    "Define a student template with below information. 
+    ID, name, marks of 6 subjects, fathername, day ,month & year of birth, day,month & year of joining, day, month. Create Date as another structure and use inside student structure.
+    
+        Create an array of students and read the data for all students. 
+        - Implement a date comparison function that takes 2 date structures as arguments and returns 1 or 0 to indicate which date is elder.
+        - using the above function, findout and print the name of the eldest of all the students.
+        - Find the topper out of all students and print his name and father name and marks and total marks.
+        - How many students passed the exams (total marks above 30% ) and their names.
+        - How many students failed (any subject below 30% marks ) and their names.
+        - How many students got first class (total marks above 60% ) and print all their names.
+        - Sort the students array in alphabetical order of their names.
+        - Display the student names rankwise without sorting the array. 
+            you may add extra members to the structure if required."
+
+
+
+### functionptrs
+
+#### Dt: 30-11-2021
+
+    1)Write the calculator program using function pointers.
+    
+    2)Write the calculator program using array of function pointers.
+    
+    3)Write the calculator program using a function that accepts a function pointer as argument and invokes it.
+        eg., fptr = ADD;
+        invokeptr(fptr);
+        invokeptr(int (*fptr) (int,int))
+        {
+        printf(""%d\n"",fptr(3,4));
+        }
+        
+    4)sorting a list of names received on command line argument, with options like -r and -i using function pointers.
+        eg., ./sort -r -i Abc bcD Efh Afh abcd 
+        ./sort -r Abc bcD Efh Afh abcd
+        ./sort -i Abc bcD Efh Afh abcd
+        ./sort Abc bcD Efh Afh abcd
+        
+        -i option means string comparison should be done without case sensitivity. 
+        -r option means strings should be sorted in descending order.
+
+
+
+
 ### charptr
 
 #### Dt: 19-11-2021
