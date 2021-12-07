@@ -3,7 +3,7 @@ int main()
 {
     int s,m,n; 
     int i,j,total=0;
-    printf("Enter no.of sales(s),no.of salesmen(m)");
+    printf("Enter no.of rows(s),no.of colounms(m)");
     scanf("%d%d",&s,&m);
     printf("Enter the Element to search:");
     scanf("%d",&n);
