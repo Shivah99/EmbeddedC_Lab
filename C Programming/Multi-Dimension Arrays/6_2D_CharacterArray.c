@@ -10,9 +10,6 @@ int main()
      scanf("%s[^\n]",a[i]);
      printf("\nEntered Strings are:\n");
      for(i=0;i<r;i++)
-     {
-     printf("\n");
-     printf("%s",a[i]);
-     }
+     printf("%s\t",a[i]);
      return 0;
 }
