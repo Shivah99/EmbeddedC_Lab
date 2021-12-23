@@ -11,8 +11,8 @@ MVI A 00h
 XTHL
 HLT
 
-
-//LXI SP 5000h
+//2nd method
+{LXI SP 5000h
 DCX SP
 DCX SP
 LDA 4000h
@@ -20,4 +20,4 @@ MOV H A
 LDA 4001h
 MOV L A
 XTHL
-HLT//
+HLT}
