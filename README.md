@@ -1,5 +1,15 @@
 # KM42BESD06 Burgula Shivaji  - Lab Assignments Repo.
 
+### This repository contains lab assignments related to Embedded C and Advanced C programming.
+
+#### Contents
+
+- ADVANCED C
+- C Programming
+- EMBEDDED C
+- LSP (Lab Safety Procedures)
+- Micro Processors
+
 ## Advanced C
 
 ### structures
